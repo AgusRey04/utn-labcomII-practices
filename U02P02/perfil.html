@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Contactos y Datos Personales</h1>
+    <form >
+        <label for="ocupacion">Ocupación:</label>
+        <input type="text"  name="ocupacion" value="ESTUDIANTE" readonly>
+        <br>
+        <label for="nombre">Nombre Completo:</label>    
+        <input type="text" name ="ombre" placeholder="Nombre Completo"> 
+        <br>
+        <label for="email" >Email:</label>
+        <input type="email" name="email">
+        <br>
+        <label for="edad">Edad:</label>
+        <input type="number" name="edad" >
+        <br>
+        <label for="nacionalidad">Nacional:</label>
+        <select name="nacionalidad"  >
+            <option value="argentina">Argentina</option>
+            <option value="bolivia">Bolivia</option>
+            <option value="brasil">Brasil</option>
+            <option value="chile">Chile</option>
+            <option value="colombia">Colombia</option>
+            <option value="costa-rica">Costa Rica</option>
+            <option value="cuba">Cuba</option>
+            <option value="ecuador">Ecuador</option>
+            <option value="el-salvador">El Salvador</option>
+            <option value="guatemala">Guatemala</option>
+            <option value="honduras">Honduras</option>
+            <option value="mexico">México</option>
+            <option value="nicaragua">Nicaragua</option>
+            <option value="panama">Panamá</option>
+            <option value="paraguay">Paraguay</option>
+            <option value="peru">Perú</option>
+            <option value="puerto-rico">Puerto Rico</option>
+            <option value="republica-dominicana">República Dominicana</option>
+            <option value="uruguay">Uruguay</option>
+            <option value="venezuela">Venezuela</option>
+        </select>
+        <br>
+        <label for="condición">condición:</label>
+        <select name="condición" >
+            <option value="desempleado">Desempleado</option>
+            <option value="buscando">en búsqueda laboral</option>
+            <option value="part-time">Trabajo part-time</option>
+            <option value="full-time">Trabajo full-time</option>
+        </select>
+    </form>
+    <hr>
+    <h1>Gustos Personales</h1>
+    <fieldset>
+        <label for="musicales">Gustos Musicales:</label>
+        <input type="text" name="musicales"><br>
+        <label for="ComidaPreferida">Comida Preferida:</label>
+        <select name="ComidaPreferida" >
+            <option value="comida1">Comida 1</option>
+            <option value="comida2">Comida 2</option>
+        </select>
+        <br>
+    <button type="button">Enviar fornulario</button>
+    <br>
+    <label for="check">Recordar datos de usuario:</label>
+    <input type="checkbox" name="check"> 
+    </fieldset>
+</body>
+</html>
