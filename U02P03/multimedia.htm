@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/index.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Encabezado -->
+    <header>
+      <h1>Hola mundo!</h1>
+    </header>
+    <div class="container">
+      <!-- Navegación / cotenedor izquierdo -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="multimedia.htm">Multimedia</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <!-- Contenedor principal -->
+      <main>
+        <picture>
+          
+          <source media="(max-width: 300px)" srcset="MULTIMEDIA/imgen.jpg" width="200px">
+          <img src="MULTIMEDIA/imgen.jpg" width="500px">
+        </picture>
+
+        <video width="500px"  controls>  
+          <source src="MULTIMEDIA/video.mp4" type="video/mp4"  >  
+        </video>
+        <audio controls>
+          <source src="MULTIMEDIA/homero_hola.mp3" type="audio/mp3">
+          Tu navegador no soporta esta funcionalidad
+        </audio>
+
+        
+    </main>
+      <!-- Contenedor secundario / derecho -->
+      
+    </div>
+    <!-- Pie de Página-->
+    <footer>
+      <p>© copyright labcomII.com</p>
+      <p> Desarrollador AgusRey04</p>
+    </footer>
+  </body>
+</html>
